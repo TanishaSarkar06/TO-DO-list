@@ -1,0 +1,99 @@
+body {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url("https://storage.needpix.com/rsynced_images/watercolor-floral-paper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(252, 173, 206);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #000c7a;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 70%;
+    padding: 15px;
+    border: 2px solid #34ff34;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 15px;
+    background-color: #9352e7;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: #34ff34;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-bottom: 2px solid #ff0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #b81875;
+}
+
+li button {
+    background-color: #34b5ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+li button:hover {
+    background-color: #e32c1f;
+}
+
+li input {
+    margin-right: 15px;
+}
+
+
+/*https://storage.googleapis.com/pai-images/3120ab2585ac4ce1a587245d1d56769b.jpeg
